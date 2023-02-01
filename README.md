@@ -13,4 +13,13 @@ ShellBags contain details about a user's viewed folders, using the shellbags plu
 ![image](https://user-images.githubusercontent.com/18509521/215700002-8192ff19-7c40-487d-8bdf-9d9d73aa62e2.png)
 
 ## Task 2 - Task2 ##
-##There are many suspicious open ports; which one is it? (ANSWER format: protocol:port)##
+### There are many suspicious open ports; which one is it? (ANSWER format: protocol:port) ###
+```UDP:5005```
+![image](https://user-images.githubusercontent.com/18509521/215964632-fbff4bed-324f-40cc-808e-3ad7eeaf1fba.png)
+
+### Vads tag and execute protection are strong indicators of malicious processes; can you find which they are? (ANSWER format: Pid1;Pid2;Pid3) ###
+Here we can run the malfind command to find the processes that are being identified as suspicious. 
+![image](https://user-images.githubusercontent.com/18509521/216006733-3104585c-a299-403b-9781-94ffebc12893.png)
+```1820;1860;2464```
+
+## Task 3 - IOC SAGA ##
